@@ -1,0 +1,27 @@
+{
+  "name": "jcarouth/phlip",
+  "description": "Phlip is an implementation of the Feature Toggle pattern for PHP projects",
+  "keywords": [
+    "toggle",
+    "features",
+    "continuous delivery"
+  ],
+  "homepage": "https://github.com/jcarouth/phlip",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeff Carouth",
+      "email": "jcarouth@gmail.com",
+      "homepage": "http://carouth.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phlip\\": "src",
+      "Phlip\\Test\\": "tests"
+    }
+  }
+}
